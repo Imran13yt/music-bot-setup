@@ -1,6 +1,6 @@
-/**
- * Module Imports
- */
+ const express = require('express')
+const app = express();
+const port = 3000
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
